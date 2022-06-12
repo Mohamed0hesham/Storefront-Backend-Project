@@ -5,6 +5,18 @@
 -type npm run start to start the server
 -all the routes are in the REQUIREMENTS.md
 
+The env variables are:
+
+POSTGRES_HOST=localhost
+POSTGRES_DB=full_stack_dev
+POSTGRES_TEST_DB=full_stack_test
+POSTGRES_USER=full_stack_user
+POSTGRES_PASSWORD=password123
+ENV=dev
+BCRYPT_PASSWORD=my-password
+SALT_ROUNDS=10
+TOKEN_SECRET=topsecret99
+
 # Storefront Backend Project
 
 ## Getting Started
