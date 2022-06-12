@@ -26,7 +26,7 @@
 
 ### all the routes are in the REQUIREMENTS.md
 
-## The env variables are:
+## The env variables :
 
 ### POSTGRES_HOST=localhost
 
