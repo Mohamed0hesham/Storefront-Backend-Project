@@ -1,21 +1,32 @@
 # Instructions for setting up and running the project
 
--type npm run migrate to migrate up the database and demigrate to migrate down
--type npm run test to run all the required tests
--type npm run start to start the server
--all the routes are in the REQUIREMENTS.md
+## type npm run migrate to migrate up the database and demigrate to migrate down
 
-The env variables are:
+## type npm run test to run all the required tests
 
-POSTGRES_HOST=localhost
-POSTGRES_DB=full_stack_dev
-POSTGRES_TEST_DB=full_stack_test
-POSTGRES_USER=full_stack_user
-POSTGRES_PASSWORD=password123
-ENV=dev
-BCRYPT_PASSWORD=my-password
-SALT_ROUNDS=10
-TOKEN_SECRET=topsecret99
+## type npm run start to start the server
+
+## all the routes are in the REQUIREMENTS.md
+
+# The env variables are:
+
+## POSTGRES_HOST=localhost
+
+## POSTGRES_DB=full_stack_dev
+
+## POSTGRES_TEST_DB=full_stack_test
+
+## POSTGRES_USER=full_stack_user
+
+## POSTGRES_PASSWORD=password123
+
+## ENV=dev
+
+## BCRYPT_PASSWORD=my-password
+
+## SALT_ROUNDS=10
+
+## TOKEN_SECRET=topsecret99
 
 # Storefront Backend Project
 
