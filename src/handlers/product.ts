@@ -45,9 +45,14 @@ const index = async (req: Request, res: Response) => {
 
 //Handler for getting a certain product by id
 const show = async (req: Request, res: Response) => {
-  const id = req.params.id as unknown as number;
-  const product = await productsClass.show(id);
-  res.json(product);
+  try {
+    const id = req.params.id as unknown as number;
+    const product = await productsClass.show(id);
+    res.json(product);
+  } catch (err) {
+    res.status(400);
+    res.json(err);
+  }
 };
 
 //Handler for creating a new product
@@ -69,9 +74,14 @@ const create = async (req: Request, res: Response) => {
 
 //Handler for deleting a product by id
 const destroy = async (req: Request, res: Response) => {
-  const id = req.params.id as unknown as number;
-  const deleted = await productsClass.delete(id);
-  res.json(deleted);
+  try {
+    const id = req.params.id as unknown as number;
+    const deleted = await productsClass.delete(id);
+    res.json(deleted);
+  } catch (err) {
+    res.status(400);
+    res.json(err);
+  }
 };
 
 export default productsRoutes;

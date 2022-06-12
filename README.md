@@ -1,5 +1,23 @@
 # Instructions for setting up and running the project
 
+## DataBase setup on default port 5432
+
+### Open SQL Quuery
+
+### type CREATE USER full_stack_user WITH PASSWORD password123
+
+### type CREATE DATABASE full_stack_dev
+
+### type CREATE DATABASE full_stack_test
+
+### type GRANT ALL PRIVILEGES ON DATABASE full_stack_dev TO full_stack_user
+
+### type GRANT ALL PRIVILEGES ON DATABASE full_stack_test TO full_stack_user
+
+## Running the project
+
+### type npm install to install the required packages
+
 ### type npm run migrate to migrate up the database and demigrate to migrate down
 
 ### type npm run test to run all the required tests
